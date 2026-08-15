@@ -1230,7 +1230,9 @@ ul {
   border-radius: var(--radius-md);
   padding: 26px;
   max-width: 440px;
+  max-height: calc(100vh - 40px);
   width: 100%;
+  overflow: auto;
   box-shadow: var(--shadow-lg);
 }
 
